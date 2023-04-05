@@ -1,0 +1,22 @@
+<ModMetaData>
+	<name>Fix Styled Blueprints</name>
+	<author>kathanon</author>
+    <packageId>kathanon.FixStyledBlueprints</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>Fixes blueprints for some buildings (notably walls) looking as if already built. It occurs when the building has a style that changes its appearance (e.g. through a modded ideology).</description>
+	<url>https://github.com/kathanon/RimWorld-FixStyledBlueprints</url>
+
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId> 
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>
